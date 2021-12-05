@@ -15,6 +15,7 @@ https://docs.microsoft.com/en-us/sql/relational-databases/user-defined-functions
 -- show a list of Product names and the price of each product.
 -- Use a function to format the price as US dollars.
 -- Order the result by the product name.
+
 ![image](https://user-images.githubusercontent.com/94755079/144761022-9c199805-8ca2-48da-b63d-1af80aa4689f.png)
 
 
@@ -26,6 +27,7 @@ Figure 1: Results of Question 1
 -- Show a list of Category and Product names, and the price of each product.
 -- Use a function to format the price as US dollars.
 -- Order the result by the Category and Product.
+![image](https://user-images.githubusercontent.com/94755079/144761044-ab0039b2-cd2f-48bf-8ef2-cc2fb78321b5.png)
 
  
 
@@ -35,6 +37,9 @@ Figure 2: Results of Question 2
 -- Use functions to show a list of Product names, each Inventory Date, and the Inventory Count.
 -- Format the date like 'January, 2017'.
 -- Order the results by the Product and Date.
+ 
+ ![image](https://user-images.githubusercontent.com/94755079/144761053-c284ffd6-a58d-4733-950a-3a712f73228c.png)
+
  
 
 Figure 3: Results of Question 3
@@ -47,6 +52,10 @@ Figure 3: Results of Question 3
 
 -- Check that it works: Select * From vProductInventories;
 
+ ![image](https://user-images.githubusercontent.com/94755079/144761057-908b372e-b581-4a70-a189-ae4d8b8a6832.png)
+
+ 
+ 
  
 
 Figure 4: Results of Question 4
@@ -60,7 +69,11 @@ Figure 4: Results of Question 4
 
 -- Check that it works: Select * From vCategoryInventories;
 
+![image](https://user-images.githubusercontent.com/94755079/144761061-0e14ce0d-5f5c-4926-891e-d0312f5e45c9.png)
 
+ 
+ 
+ 
  
 
 
@@ -72,7 +85,11 @@ Figure 5: Results of Question 5
 -- Use functions to set any January NULL counts to zero. 
 -- Order the results by the Product and Date. 
 -- This new view must use your vProductInventories view.
+![image](https://user-images.githubusercontent.com/94755079/144761064-9576c09d-0c2f-420b-b11c-a8320b6d3458.png)
 
+ 
+ 
+ 
  
  
 Figure 6: Results of Question 6
@@ -87,6 +104,9 @@ Figure 6: Results of Question 6
 
 -- Important: This new view must use your vProductInventoriesWithPreviousMonthCounts view!
 -- Check that it works: Select * From vProductInventoriesWithPreviousMonthCountsWithKPIs;
+![image](https://user-images.githubusercontent.com/94755079/144761069-440f6183-6797-4185-931b-fa2e6071f29c.png)
+
+
 
  
 
@@ -105,6 +125,11 @@ Select * From fProductInventoriesWithPreviousMonthCountsWithKPIs(1);
 Select * From fProductInventoriesWithPreviousMonthCountsWithKPIs(0);
 Select * From fProductInventoriesWithPreviousMonthCountsWithKPIs(-1);
 
+![image](https://user-images.githubusercontent.com/94755079/144761075-67727479-3491-451c-9e54-54e6bba8e6bb.png)
+
+![image](https://user-images.githubusercontent.com/94755079/144761082-0c3e8a83-668c-4e4f-8f7f-84df583128fb.png)
+
+![image](https://user-images.githubusercontent.com/94755079/144761090-4bb6a0d3-6b85-4084-9707-a899b8aeefa2.png)
 
  
 
