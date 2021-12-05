@@ -15,6 +15,7 @@ https://docs.microsoft.com/en-us/sql/relational-databases/user-defined-functions
 -- show a list of Product names and the price of each product.
 -- Use a function to format the price as US dollars.
 -- Order the result by the product name.
+![image](https://user-images.githubusercontent.com/94755079/144761022-9c199805-8ca2-48da-b63d-1af80aa4689f.png)
 
 
  
